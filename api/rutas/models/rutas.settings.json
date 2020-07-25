@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rutas",
+  "info": {
+    "name": "Rutas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Destino": {
+      "type": "string"
+    },
+    "Duracion": {
+      "type": "string"
+    },
+    "Horario": {
+      "type": "string"
+    },
+    "Precio": {
+      "type": "string"
+    },
+    "empresas_de_transporte": {
+      "model": "empresas-de-transporte",
+      "via": "rutas"
+    }
+  }
+}

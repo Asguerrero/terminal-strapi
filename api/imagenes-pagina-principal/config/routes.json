@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/imagenes-pagina-principal",
+      "handler": "imagenes-pagina-principal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/imagenes-pagina-principal",
+      "handler": "imagenes-pagina-principal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/imagenes-pagina-principal",
+      "handler": "imagenes-pagina-principal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

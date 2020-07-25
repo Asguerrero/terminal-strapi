@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/empresas-de-transportes",
+      "handler": "empresas-de-transporte.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/empresas-de-transportes/count",
+      "handler": "empresas-de-transporte.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/empresas-de-transportes/:id",
+      "handler": "empresas-de-transporte.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/empresas-de-transportes",
+      "handler": "empresas-de-transporte.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/empresas-de-transportes/:id",
+      "handler": "empresas-de-transporte.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/empresas-de-transportes/:id",
+      "handler": "empresas-de-transporte.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

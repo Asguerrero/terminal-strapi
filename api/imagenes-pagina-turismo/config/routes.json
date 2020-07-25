@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/imagenes-pagina-turismos",
+      "handler": "imagenes-pagina-turismo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/imagenes-pagina-turismos/count",
+      "handler": "imagenes-pagina-turismo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/imagenes-pagina-turismos/:id",
+      "handler": "imagenes-pagina-turismo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/imagenes-pagina-turismos",
+      "handler": "imagenes-pagina-turismo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/imagenes-pagina-turismos/:id",
+      "handler": "imagenes-pagina-turismo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/imagenes-pagina-turismos/:id",
+      "handler": "imagenes-pagina-turismo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

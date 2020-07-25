@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "imagenes_pagina_principals",
+  "info": {
+    "name": "imagenes-pagina-principal",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Foto": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

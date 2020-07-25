@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/opciones-turismos",
+      "handler": "opciones-turismo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/opciones-turismos/count",
+      "handler": "opciones-turismo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/opciones-turismos/:id",
+      "handler": "opciones-turismo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/opciones-turismos",
+      "handler": "opciones-turismo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/opciones-turismos/:id",
+      "handler": "opciones-turismo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/opciones-turismos/:id",
+      "handler": "opciones-turismo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

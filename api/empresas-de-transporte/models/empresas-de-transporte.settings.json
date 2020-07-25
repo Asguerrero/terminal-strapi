@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "empresas_de_transportes",
+  "info": {
+    "name": "Empresas de Transporte"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Telefono": {
+      "type": "string"
+    },
+    "Pagina": {
+      "type": "string"
+    },
+    "rutas": {
+      "via": "empresas_de_transporte",
+      "collection": "rutas"
+    }
+  }
+}

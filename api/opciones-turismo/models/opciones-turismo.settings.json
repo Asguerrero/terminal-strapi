@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "opciones_turismos",
+  "info": {
+    "name": "Opciones Turismo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Foto": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Nombre": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "text"
+    },
+    "Ubicacion": {
+      "type": "string"
+    },
+    "Contacto": {
+      "type": "string"
+    }
+  }
+}

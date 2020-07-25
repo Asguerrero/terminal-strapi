@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "imagenes_pagina_turismos",
+  "info": {
+    "name": "Imagenes Pagina Turismo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Foto": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
