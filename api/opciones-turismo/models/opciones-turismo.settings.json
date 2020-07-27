@@ -13,21 +13,24 @@
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     },
     "Nombre": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Descripcion": {
-      "type": "text"
+      "type": "text",
+      "required": true
     },
     "Ubicacion": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Contacto": {
       "type": "string"

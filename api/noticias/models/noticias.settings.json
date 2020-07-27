@@ -10,25 +10,27 @@
   },
   "attributes": {
     "Titulo": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Descripcion": {
       "type": "richtext",
       "maxLength": 100
     },
     "DescripcionLarga": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "FotoPrincipal": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
-      "required": false
+      "required": true
     }
   }
 }

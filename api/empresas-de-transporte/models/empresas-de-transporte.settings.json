@@ -10,17 +10,19 @@
   },
   "attributes": {
     "Nombre": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Telefono": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Pagina": {
       "type": "string"
     },
     "rutas": {
-      "via": "empresas_de_transporte",
-      "collection": "rutas"
+      "collection": "rutas",
+      "via": "empresas_de_transporte"
     }
   }
 }

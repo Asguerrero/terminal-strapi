@@ -1,33 +1,33 @@
 {
   "kind": "collectionType",
-  "collectionName": "rutas",
+  "collectionName": "pqrsds",
   "info": {
-    "name": "Rutas"
+    "name": "PQRSD"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "Destino": {
+    "Nombre": {
       "type": "string",
       "required": true
     },
-    "Duracion": {
+    "Apellidos": {
       "type": "string",
       "required": true
     },
-    "Horario": {
+    "Correo": {
+      "type": "email",
+      "required": true
+    },
+    "Tipo": {
       "type": "string",
       "required": true
     },
-    "Precio": {
-      "type": "string",
+    "Mensaje": {
+      "type": "text",
       "required": true
-    },
-    "empresas_de_transporte": {
-      "via": "rutas",
-      "model": "empresas-de-transporte"
     }
   }
 }
