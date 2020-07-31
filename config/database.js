@@ -1,6 +1,6 @@
 let newregex = /[:@/]/g;
 let regex = new RegExp(newregex);
-let url = env('DATABASE_URL');
+let url = process.env.DATABASE_URL;
 let text = url.split(regex)
 
 
