@@ -6,11 +6,11 @@ module.exports = ({ env }) => (
       "connector": "bookshelf",
       "settings": {
         "client": "postgres",
-        "host": "ec2-52-22-216-69.compute-1.amazonaws.com",
+        "host": "ec2-107-20-104-234.compute-1.amazonaws.com",
         "port": 5432,
-        "username": "axlyjrhzmyrllt",
-        "password": "307f720c4e73b826294a675dce6f93e14aa2a2157e66c03e8389a3efc5ccb939",
-        "database": "d4h8lctmnlikt4",
+        "username": "xhsfggbmzoguml",
+        "password": "f621529f161cf1f77539a0fc635dfdbac5fcb74dda8534e368b896fad23db179",
+        "database": "d9fcqfoqphps8k",
         "schema": "public"
       },
       "options": {
@@ -20,3 +20,5 @@ module.exports = ({ env }) => (
   }
 }
   );
+
+
