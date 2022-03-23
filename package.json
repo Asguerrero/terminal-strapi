@@ -14,7 +14,7 @@
     "knex": "<0.20.0",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
-     
+      "sharp": "^0.28.1",
     "sqlite3": "latest",
     "strapi": "3.0.6",
     "strapi-admin": "3.0.6",
@@ -34,8 +34,8 @@
     "uuid": "2feaa0ad-35d8-40f1-875e-b1c49a89a57c"
   },
   "engines": {
-   "node": ">=10.0.0",
-    "npm": ">=6.0.0"
+   "node": "14.x",
+    "npm": "6.x"
   },
   "license": "MIT"
 }
